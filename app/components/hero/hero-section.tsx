@@ -67,12 +67,17 @@ export default function HeroSection() {
             <h3>Company I Worked With</h3>
             <div className="grid grid-cols-4 gap-8 opacity-50">
               <Image
-                src="/images/companies/safran-group.png"
+                src="/images/companies/safran-group-2.png"
                 alt="Safran"
-                width={120} 
+                width={120}
                 height={40}
               />
-              <Image src="/walmart.svg" alt="BCF-lab" width={120} height={40} />
+              <Image
+                src="/images/companies/logo-bcf-innov.png"
+                alt="BCF-lab"
+                width={120}
+                height={40}
+              />
               <Image src="/walmart.svg" alt="Polonio" width={120} height={40} />
               <Image src="/linkedin.svg" alt="Leys" width={120} height={40} />
             </div>

@@ -3,7 +3,7 @@ import WorkSection from "./components/work/work-section";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-black">
    <HeroSection/>
    <WorkSection/>
     </div>
